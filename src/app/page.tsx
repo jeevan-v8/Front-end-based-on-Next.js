@@ -6,6 +6,7 @@ import Footer from "@/components/footer"
 import ProudSection from "@/components/proud"
 import FeaturesSection from "@/components/features"
 import BlogSection from "@/components/blog"
+import { SpeedInsights } from "@vercel/speed-insights/next"
 
 export default function Home() {
   return (
@@ -18,6 +19,7 @@ export default function Home() {
       <BlogSection/>
       <ProudSection/>
       <Footer/>
+      <SpeedInsights/>
     </main>
   )
 }
